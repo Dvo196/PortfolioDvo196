@@ -116,11 +116,14 @@
     color: #06579c;
     transition: 0.2s;
 }
+.univer:active{
+    color: red;
+}
 .name{
     color: grey;
 }
 .adasd{
-    margin-top: -57%;
+    margin-top: -30%;
     color: #06579c;
     position: absolute;
     margin-left: 112%;

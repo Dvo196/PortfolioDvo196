@@ -50,9 +50,8 @@ function Main() {
                   <img className={s.icon_job} src={icon_obraz} alt="icon_job" />
                   <h4 className={s.obraz}>2025</h4>
                   <div className={s.textes_obrazovanie}>
-                  <h4 className={s.univer}>{t('Ереванский сельскохозяйственный университет')}</h4>
-                  <h4 className={s.name}>{t('Среднее (школа)')}</h4>
-                  <h4 className={s.name}>{t('Веб Дизайнер Программист')}</h4>
+                  <h4 className={s.univer}>{t('Учусь в Ереванский сельскохозяйственный университете')}</h4>
+                  <h4 className={s.name}>{t('Закончил среднюю школу')}</h4>
                   </div>
 
 

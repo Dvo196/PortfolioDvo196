@@ -21,6 +21,7 @@ function Header() {
     i18n.changeLanguage(language);
   };
   
+  
   return (
     <header>
       <div className={s.textes}>
@@ -71,16 +72,23 @@ function Header() {
                 <h2>{t('FRONT-END РАЗРАБОТЧИК')}</h2>
                 <div className={s.images_textes}>
                 <img className={s.img} src={icon_map} alt="icon_map" />
-                  <h4 className={s.erevan}>{t('Ереван-Давташен')}</h4>
+                  <h4 className={s.erevan}>{t('Армения-Ереван')}</h4>
                 <img className={s.icon_info} src={icon_info} alt="icon_info" />
                 <h4 className={s.erevan}>{t('Возвраст 15лет')}</h4>
                 </div>
-
+                <div className={s.experience_block}>
                 <h3 className={s.opit}>{t('ОПЫТ РАБОТЫ')}</h3>
                 <div className={s.line}>
                 </div>
                   <img className={s.icon_job} src={icon_job} alt="icon_job" />
-                  <h4 className={s.beril}>{t('Опыта нету но собрал много макетов')}</h4>
+                  <h4 className={s.beril}>{t('Мои работы')}</h4>
+                  <h4 className={s.beril}><Link className={s.html_Css} target="_blank"  to="https://dvo196.github.io/wedding/">{t('HTML CSS Свадьба')}</Link></h4>
+                  <h4 className={s.beril}><Link className={s.js} target="_blank" to="https://davo.vercel.app/">{t('JS погода')}</Link></h4>
+                  <h4 className={s.beril}><Link className={s.react} target="_blank" to="https://phone-shop-lemon.vercel.app/">{t('React магазин телефонов')}</Link></h4>
+                  <h4 className={s.beril}><Link className={s.react_js} target="_blank" to="https://to-do-list-snowy-psi.vercel.app/">{t('React + Js список дел')}</Link></h4>
+
+
+                </div>
 
 
                   
